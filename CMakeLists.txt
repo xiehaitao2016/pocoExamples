@@ -5,5 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 #find_package(Poco::Foundation)
 add_subdirectory(thirdparty/poco)
 
-add_executable(NotificationQueue src/main.cpp)
-target_link_libraries(NotificationQueue PUBLIC Poco::Foundation)
+add_subdirectory(samples/foundation)
