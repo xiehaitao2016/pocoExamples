@@ -1,0 +1,3 @@
+[submodule "thirdparty/poco"]
+	path = thirdparty/poco
+	url = git@github.com:xiehaitao2016/poco.git
